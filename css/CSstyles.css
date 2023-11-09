@@ -33,10 +33,10 @@ a {
 /* Define font for secondary text elements */
 p {
   font-size: 18px;
-  font-family: 'Inter', sans-serif; /* Use Inter as the secondary font */
+  font-family: 'Inter', sans-serif; 
 }
 
-ul, ol {
+ul, ol, li {
   font-size: 18px;
   font-family: 'Inter', sans-serif; 
 }
