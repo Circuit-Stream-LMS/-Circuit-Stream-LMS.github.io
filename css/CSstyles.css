@@ -36,6 +36,11 @@ p {
   font-family: 'Inter', sans-serif; /* Use Inter as the secondary font */
 }
 
+ul, ol {
+  font-size: 18px;
+  font-family: 'Inter', sans-serif; 
+}
+
 div.advice {
   background-color: black;
   color: white;
