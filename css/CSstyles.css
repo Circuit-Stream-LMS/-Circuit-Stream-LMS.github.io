@@ -84,3 +84,45 @@ color: black;
   width: 100%;
   height: 100%;
 }
+
+/* Apply a modern look to the table */
+.modern-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.modern-table th,
+.modern-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+/* Set background and text color for header */
+.modern-table th {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Apply alternating background colors to table rows */
+.modern-table tr:nth-child(even) {
+  background-color: #f4f4f4;
+}
+
+/* Hover effect on table rows */
+.modern-table tr:hover {
+  background-color: #ddd;
+}
+
+/* Style the caption (if used) */
+.modern-table caption {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Add a subtle shadow to the table */
+.modern-table {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
