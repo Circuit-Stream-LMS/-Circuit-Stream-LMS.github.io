@@ -58,6 +58,10 @@ div.advice {
  padding: 5pt;
 }
 
+ div.software-item {
+   max-width: 150px;
+ }
+
 code {
 background-color: #F6F6F6;
 color: black;
