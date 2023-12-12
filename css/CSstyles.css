@@ -33,6 +33,7 @@ a {
 /* Define font for secondary text elements */
 p {
   font-size: 18px;
+  max-width: 150px;
   font-family: 'Inter', sans-serif; 
 }
 
