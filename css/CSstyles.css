@@ -73,6 +73,11 @@ color: black;
   padding-right: 3pt;
 }
 
+img {
+  margin: 15pt 5% 15pt 5%;
+  max-width: 90%;
+}
+
 .video-container {
   position: relative;
   overflow: hidden;
