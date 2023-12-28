@@ -78,20 +78,20 @@ img {
   max-width: 90%;
 }
 
-.video-container {
+.video-container, .youtube-video-container {
   position: relative;
   overflow: hidden;
   width: 90%;
   margin: 15pt 5% 15pt 5%;
 }
 
-.video-container::after {
+.video-container::after, .youtube-video-container::after {
   display: block;
   content: "";
   padding-top: 56.25%;
   }
 
-.video-container iframe {
+.video-container, .youtube-video-container iframe {
   position: absolute;
   top: 0;
   left: 0;
