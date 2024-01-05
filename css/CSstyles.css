@@ -53,6 +53,12 @@ ul, ol, li {
   font-family: 'Inter', sans-serif; 
 }
 
+figcaption {
+  font-size: 14px;
+  text-align: center;
+  color: gray;
+}
+
 div.advice {
   background-color: black;
   color: white;
@@ -142,3 +148,5 @@ img {
 .modern-table {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+
