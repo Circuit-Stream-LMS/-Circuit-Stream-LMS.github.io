@@ -75,6 +75,11 @@ div.advice {
  padding: 5pt;
 }
 
+div.footnote {
+  color: gray;
+  font-size: 14px;
+}
+
 code {
 background-color: #F6F6F6;
 color: black;
