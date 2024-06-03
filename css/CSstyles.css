@@ -193,7 +193,7 @@ img {
 
 /* Media Query for Small Screens */
 @media (max-width: 768px) {
-    .container {
+    .grid {
         grid-template-columns: 1fr;
     }
 }
