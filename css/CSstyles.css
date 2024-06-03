@@ -190,3 +190,10 @@ img {
 .full-row {
     grid-column: span 3;
 }
+
+/* Media Query for Small Screens */
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
