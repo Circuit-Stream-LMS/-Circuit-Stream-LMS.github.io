@@ -90,6 +90,11 @@ p.code {
     font-size: 18px;
 }
 
+.code {
+    background-color: #f6f6f6;
+    color: black;
+}
+
 img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
