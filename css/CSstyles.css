@@ -171,6 +171,7 @@ img {
     max-width: 1200px;
     margin: auto;
 }
+
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -178,23 +179,26 @@ img {
     margin-top: 10px;
     align-items: center;
 }
-.grid-item {
-    padding: 10px;
-    border-radius: 5px;
-}
-.grid-item img {
-    max-width: 100%;
-}
-.span-two-columns {
-    grid-column: span 2;
-}
-.full-row {
-    grid-column: span 3;
-}
 
-/* Media Query for Small Screens */
 @media (max-width: 768px) {
     .grid {
         grid-template-columns: 1fr;
     }
+}
+
+.grid-item {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.grid-item img {
+    max-width: 100%;
+}
+
+.span-two-columns {
+    grid-column: span 2;
+}
+
+.full-row {
+    grid-column: span 3;
 }
