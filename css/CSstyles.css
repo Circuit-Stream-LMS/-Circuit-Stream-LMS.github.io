@@ -208,5 +208,5 @@ a:not(:is([href*='d2l'], [href^='/'], [href^='./'], [href^='../']))::after {
   height: 14px;
   display:inline-block;
   margin-left: 5px;
-  content: url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />");
+  content: url("https://github.com/Circuit-Stream-LMS/Circuit-Stream-LMS.github.io/blob/6b4bb6cebc4df4b34508249c71d3a9d2f26e45b3/images/external.svg");
 }
