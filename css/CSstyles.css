@@ -203,8 +203,4 @@ img {
     grid-column: span 3;
 }
 
-a[href^="http"]:not([href*="[href*='d2l'], [href^='/'], [href^='./'], [href^='../']"])::after {
-  content: url('/shared/external.svg');
-  margin-left: 5px;
-}
 }
