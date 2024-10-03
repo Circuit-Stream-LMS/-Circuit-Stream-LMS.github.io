@@ -204,6 +204,6 @@ img {
 }
 
 a:not([href*='courses.circuitstream.com']):not([href^="#"]):not([href^="/"]):after {
-    content: url(/shared/external.svg);
+    content: url(/shared/external.png);
     margin-left: 0.25rem;
 }
