@@ -202,8 +202,3 @@ img {
 .full-row {
     grid-column: span 3;
 }
-
-a:not([href*='courses.circuitstream.com']):not([href^="#"]):not([href^="/"]):after {
-    content: url(/shared/external.png);
-    margin-left: 0.25rem;
-}
