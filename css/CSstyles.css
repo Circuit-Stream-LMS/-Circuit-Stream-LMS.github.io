@@ -203,10 +203,8 @@ img {
     grid-column: span 3;
 }
 
-a:not(:is([href*='d2l'], [href^='/'], [href^='./'], [href^='../']))::after {
-  width: 14px;
-  height: 14px;
-  display:inline-block;
+a[href^="http"]:not([href*="yourdomain.com"])::after {
+  content: url('/shared/external.svg');
   margin-left: 5px;
-  content: url("/shared/external.svg");
+}
 }
