@@ -203,4 +203,7 @@ img {
     grid-column: span 3;
 }
 
+a:not([href*='courses.circuitstream.com']):not([href^="#"]):not([href^="/"]):after {
+    content: url(/shared/external.svg);
+    margin-left: 0.25rem;
 }
