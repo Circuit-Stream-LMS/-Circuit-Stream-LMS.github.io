@@ -202,3 +202,7 @@ img {
 .full-row {
     grid-column: span 3;
 }
+
+math, mstyle, mtext {
+            font-family: 'Inter', sans-serif;
+        }
