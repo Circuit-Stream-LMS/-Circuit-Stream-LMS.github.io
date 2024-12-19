@@ -175,8 +175,6 @@ img {
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    margin-top: 10px;
     align-items: center;
 }
 
@@ -187,7 +185,7 @@ img {
 }
 
 .grid-item {
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px;
 }
 
